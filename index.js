@@ -10,7 +10,7 @@ const cors = require('cors');
 
 // conectar mongo
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://devmcgann:Hola440150@clusterfiesta-xtun3.mongodb.net/test?retryWrites=true&w=majority' , {
+mongoose.connect('mongodb+srv://devmcgann:HOLA440150@clusterfiesta-xtun3.mongodb.net/test?retryWrites=true&w=majority' , {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
