@@ -1,0 +1,36 @@
+.cliente {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.info-cliente .dni {
+    background-color: rgb(240, 209, 108);
+    color:green;
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.info-cliente .nombre {
+    font-size: 2em;
+}
+
+
+.acciones { 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.acciones button {
+    align-self: center;
+    justify-self: center;
+}

@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5de70b045760912f1c1f762f"},"presente":true,"nombre":"s","apellido":"Perez","dni":"44444","__v":0}
+{"_id":{"$oid":"5de82e81b5a5aa1678ca1b03"},"presente":true,"nombre":"dsadasdd","apellido":"De la Vega","dni":"32","__v":0}
+{"_id":{"$oid":"5de84803b5a5aa1678ca1b04"},"presente":false,"nombre":"Gabriel","apellido":"Mc Gann","dni":"30511797","__v":0}
+{"_id":{"$oid":"5de87fbce208262818ef3030"},"presente":false,"nombre":"Uno","apellido":"De por ahi","dni":"11","__v":0}
