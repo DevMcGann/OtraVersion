@@ -10,7 +10,7 @@ const cors = require('cors');
 
 // conectar mongo
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://devmcgann:HOLA440150$@clusterfiesta-xtun3.mongodb.net/test?retryWrites=true&w=majority' , {
+mongoose.connect('mongodb+srv://devmcgann:Hola440150@clusterfiesta-xtun3.mongodb.net/test?retryWrites=true&w=majority' , {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
@@ -48,14 +48,6 @@ app.use(express.static('uploads'));
 const host = process.env.HOST || '0.0.0.0';
 const PORT = process.env.PORT || 5000;
 app.set('port', (process.env.PORT || 5000));
-
-/*//For avoidong Heroku $PORT error
-app.get('/invitados', function(request, response) {
-    var result = 'App is running'
-    response.send(result);
-}).listen(app.get('port'), function() {
-    console.log('App is running, server is listening on port ', app.get('port'));
-});*/
 
 
 if(process.env.NODE_ENV === 'production') {
